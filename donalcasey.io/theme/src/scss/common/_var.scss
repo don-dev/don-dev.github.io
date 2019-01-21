@@ -1,0 +1,68 @@
+// mixins
+$mobile-width: 425px;
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+//brand fonts
+$brand-font-avenir: "avenir-roman", sans-serif;
+$brand-font-avenir-heavy: "avenir-heavy", sans-serif;
+$brand-font-helvetica: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+//header fonts
+$base-font-family: "avenir-roman", sans-serif;
+$heading-font-family: "avenir-roman", sans-serif;
+////
+
+//globo 
+$brand-cerulean: #0072ce;
+$brand-pale-grey: #f7f8fa;
+$brand-yellow-orange: #f2a900;
+$brand-marine-blue: #002d72;
+$brand-gunmetal: #53565a;
+
+
+//brand pallet
+$brand-border-color: $brand-cerulean;
+$brand-border-dark: $brand-marine-blue;
+$brand-dark-blue: $brand-marine-blue;
+$brand-light-blue: $brand-cerulean;
+$brand-primary-blue: $brand-cerulean;
+$brand-main-blue: $brand-cerulean;
+$brand-dark-base: $brand-gunmetal;
+$brand-dark-background: $brand-pale-grey;
+$brand-white: #FFFFFF;
+
+//ui colors
+$ui-text-black: #020920;
+$ui-dark-grey: $brand-dark-base;
+$ui-light-grey: #F5F6F8;
+$ui-error-red: #ce312d;
+$ui-warning-yellow: #FFBF00;
+$ui-success-green: #799c4b;
+$ui-table-border: #979797;
+$ui-border-light-gray: #DDDDDD;
+
+//accent colors
+$color-pink: #d81d7e;
+$color-orange: #eb7200;
+$color-yellow: #ffbf00;
+$color-blue: #54bfd4;
+$color-teal: #00b0aa;
+$color-green: #6dc498;
+$color-purple: #965BC4;
+$color-slate: #50738a;
+$color-gray: #F3F7FD;
+
+//GLB
+$glb-primary-blue:#002d72;
+$glb-support-blue:#0072ce;
+$glb-secondary-support-yellow:#f2a900;
+$glb-secondary-support-red:#e04e39;
+$glb-secondary-support-green:#78be20;
+$glb-secondary-support-orange:#ea7600;
+$glb-secondary-support-teal:#00778b;
+$glb-secondary-support-light-blue:#98a4ae;
+$glb-tertiary-slate: #53565a;
+$glb-tertiary-grey:#98a4ae;
+$glb-tertiary-light-grey:#f7f8fa;
+$glb-tertiary-white:#fff;
