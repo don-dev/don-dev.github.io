@@ -1211,4 +1211,8 @@ body {
   transition: all 0.8s ease;
 }
 
+.intro-page {
+  background-image: url("../images/header-bg.jpg");
+}
+
 /*# sourceMappingURL=dist/styles/main.css.map */
