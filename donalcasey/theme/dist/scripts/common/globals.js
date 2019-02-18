@@ -3,11 +3,7 @@ exports.init = function ($) {
     debug: true,
     tallest: 0,
     init: function () {
-      if (this.debug) {
-        let reasons = ["You like how I did something and want to use it as an example:", "Go ahead! I am flattered. Also, this site was created in haste, I have my own yo generator and structure I take with me from site to site, but it was used to modify a theme found on the web.",, "You are vetting me", "That\'s cool too! It\'s the main reason I left debug\: true on line 3!. I take pride in how I organize my assets. Use these debugs to light the way!"];
-        console.log('Hey curious individual! Chances are, you would like to look at this structure and see how I work for good reasons!', reasons);
-        console.log('DC.init()');
-      }
+      if (this.debug) {}
       try {
         $.ajaxSetup({
           cache: false

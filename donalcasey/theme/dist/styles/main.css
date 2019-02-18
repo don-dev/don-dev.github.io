@@ -1215,4 +1215,12 @@ body {
   background-image: url("../images/header-bg.jpg");
 }
 
+.menu-wrapper {
+  background: #043B4E;
+}
+
+.section-title-holder {
+  background: #043B4E !important;
+}
+
 /*# sourceMappingURL=dist/styles/main.css.map */
