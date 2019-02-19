@@ -1,0 +1,36 @@
+.intro-page {
+    background-image: url('../images/header-bg.jpg');
+    display: table;
+    vertical-align: middle;
+    height:100vh;
+    z-index: 5;
+    >div{
+        display: table-cell;
+        vertical-align: middle;
+    }
+}
+.section{
+    // background-image:none!important;
+}
+
+.menu-wrapper{
+    background:#043B4E;
+}
+.section-title-holder{
+    background:#043B4E!important;
+}
+
+#portfolio,
+#about,
+#news,
+#contact,
+#skills{
+    background-image:none;
+}
+.member-content-holder {
+
+    width: 330px;
+    padding: 50px 50px 50px 50px;
+    float: left;
+
+}

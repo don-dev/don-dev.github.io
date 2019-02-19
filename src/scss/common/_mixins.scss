@@ -1,0 +1,76 @@
+//MQ Mixins
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+// TODO: Upstream!
+//New -- want to change ^^ to -- min-width
+@mixin tablet-down {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: #{$tablet-width} - 1px) {
+    @content;
+  }
+}
+
+@mixin mobile-plus {
+  @media (max-width: #{$desktop-width} - 1px) {
+    @content;
+  }
+}
+
+
+@mixin tablet-plus {
+  @media (min-width: #{$tablet-width}) {
+    @content;
+  }
+}
+
+@mixin container {
+  max-width:1190px;
+  display: block;
+  overflow: auto;
+  margin: 0 auto;
+}
+
+//
+// 
+//Type
+@mixin font-size($sizeValue: 1) {
+  font-size: ($sizeValue * 10) + px;
+  //font-size: $sizeValue + rem;
+}
+
+@mixin p-small(){
+  color: #53565A;
+	font-family: $base-font-family;
+	font-size: 14px;
+}
+
+@mixin p-caption(){
+    color: #53565A;
+    font-family: $font-family-roman;
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+@mixin transition($transition...) {
+  -moz-transition:    $transition;
+  -o-transition:      $transition;
+  -webkit-transition: $transition;
+  transition:         $transition;
+}
