@@ -1213,6 +1213,15 @@ body {
 
 .intro-page {
   background-image: url("../images/header-bg.jpg");
+  display: table;
+  vertical-align: middle;
+  height: 100vh;
+  z-index: 5;
+}
+
+.intro-page > div {
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .menu-wrapper {
@@ -1221,6 +1230,20 @@ body {
 
 .section-title-holder {
   background: #043B4E !important;
+}
+
+#portfolio,
+#about,
+#news,
+#contact,
+#skills {
+  background-image: none;
+}
+
+.member-content-holder {
+  width: 330px;
+  padding: 50px 50px 50px 50px;
+  float: left;
 }
 
 /*# sourceMappingURL=dist/styles/main.css.map */

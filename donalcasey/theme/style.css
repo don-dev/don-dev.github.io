@@ -68,7 +68,7 @@ body a:hover
 {    
     transition: background-color .2s linear;
     z-index: 99 !important;
-    background-color: #0B063F;
+    background-color: #221C5A;
     width: 100% !important;
     top: 0;
     position: fixed;
@@ -221,7 +221,7 @@ body a:hover
     line-height: 100%;
     text-transform: uppercase;
     margin-top: -75px;
-    color: #0B063F;    
+    color: #221c5a;    
 }
 
 .extra-content-left
@@ -259,7 +259,7 @@ body a:hover
 {
     padding-bottom: 170px;
     min-height: calc(100vh - 170px);
-    background-color: #0B063F; 
+    background-color: #221c5a; 
     background-image:url(demo-images/background_img_01b.jpg); 
     background-repeat: repeat; 
     background-position: center top; 
@@ -317,7 +317,7 @@ h1.big-title
 
 #services
 {
-    background-color: #0B063F;
+    background-color: #221c5a;
     z-index: 9;
 }
 
@@ -367,7 +367,7 @@ h1.big-title
 
 #portfolio
 {
-    background-color: #0B063F; 
+    background-color: #221C5A; 
     background-image: url("demo-images/background_img_02.jpg"); 
     background-repeat: no-repeat; 
     background-position: center top; 
@@ -1067,7 +1067,7 @@ span.contact-form-not-valid-tip
 
 footer
 {
-    background-color: #0B063F;
+    background-color: #221C5A;
 }
 
 .footer
@@ -1109,7 +1109,7 @@ footer
 
 #portfolio-1
 {
-    background-color: #0B063F;
+    background-color: #221c5a;
     background-image:url("demo-images/background_img_05b.jpg"); 
     background-repeat: no-repeat;
     background-position: center top;
@@ -1119,7 +1119,7 @@ footer
 #portfolio-2
 {
 
-    background-color: #0B063F;
+    background-color: #221c5a;
     background-image: url(demo-images/item_background_01.jpg);
     background-repeat: no-repeat;
     background-position: left top;
