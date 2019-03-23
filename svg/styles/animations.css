@@ -1,0 +1,59 @@
+/* Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  //background-color: #e33b49;
+}
+/* Hamburger Menu */
+.McButton {
+  position: absolute;
+  top: 50px;
+  left: 90%;
+  margin-left: -22px;
+  margin-top: -22px;
+  width: 44px;
+  height: 33px;
+  cursor: pointer;  
+  z-index: 999999;
+}
+.McButton b {
+  position: absolute;
+  left: 0;
+  width: 44px;
+  height: 3px;
+  background-color: white;
+}
+.McButton b:nth-child(1) {
+  top: 0;
+}
+.McButton b:nth-child(2) {
+  top: 50%;
+}
+.McButton b:nth-child(3) {
+  top: 100%;
+}
+/* McButton */
+
+
+.globe {
+  border: 2px solid #FFF;
+  border-radius: 50%;
+  height: 340px;
+  left: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 340px;
+}
+
+.globe img{
+    height: 550px;
+    top: 46px;
+    position: relative;
+}
+
+#bored h1{
+
+}
